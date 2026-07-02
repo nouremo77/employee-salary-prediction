@@ -1,37 +1,57 @@
 # 💼 Employee Salary Prediction using Machine Learning
 
-A Machine Learning project that predicts employee salaries based on demographic and professional information.
+## 📌 Overview
+
+This project predicts employee salaries based on demographic and professional information using a Machine Learning Regression model.
+
+The project covers the complete Machine Learning workflow from data exploration to model deployment using Streamlit.
 
 ---
 
-## 📌 Project Overview
-
-This project demonstrates the complete Machine Learning workflow:
+## 🚀 Project Workflow
 
 - Exploratory Data Analysis (EDA)
 - Data Cleaning
 - Feature Engineering
 - Model Training
 - Model Evaluation
-- Deployment using Streamlit
+- Model Deployment with Streamlit
 
 ---
 
 ## 📊 Dataset Features
 
-- Age
-- Gender
-- Education Level
-- Job Title
-- Years of Experience
+| Feature | Description |
+|----------|-------------|
+| Age | Employee age |
+| Gender | Employee gender |
+| Education Level | Highest education level |
+| Job Title | Employee job title |
+| Years of Experience | Total years of experience |
 
-Target:
+### 🎯 Target
 
 - Salary
 
 ---
 
-## 🛠 Technologies Used
+## 🤖 Machine Learning Model
+
+- Linear Regression
+
+---
+
+## 📈 Model Performance
+
+| Metric | Value |
+|--------|--------|
+| R² Score | **0.8323** |
+| MAE | **15,790.97** |
+| RMSE | **21,432.77** |
+
+---
+
+## 🛠️ Technologies Used
 
 - Python
 - Pandas
@@ -45,43 +65,43 @@ Target:
 
 ## 📂 Project Structure
 
-employee-salary-prediction/
-
+```
+employee-salary-prediction
+│
 ├── app.py
-
-├── data/
-
-│ ├── raw/
-
-│ └── processed/
-
-├── models/
-
-│ └── salary_model.pkl
-
-├── notebooks/
-
-│ ├── 01_EDA.ipynb
-
-│ ├── 02_Data_Cleaning.ipynb
-
-│ ├── 03_Feature_Engineering.ipynb
-
-│ ├── 04_Model_Training.ipynb
-
-│ ├── 05_Model_Evaluation.ipynb
-
-│ └── 06_Deployment.ipynb
-
 ├── requirements.txt
-
-└── README.md
+├── README.md
+├── .gitignore
+│
+├── data
+│   ├── raw
+│   └── processed
+│
+├── models
+│   └── salary_model.pkl
+│
+├── notebooks
+│   ├── 01_EDA.ipynb
+│   ├── 02_Data_Cleaning.ipynb
+│   ├── 03_Feature_Engineering.ipynb
+│   ├── 04_Model_Training.ipynb
+│   ├── 05_Model_Evaluation.ipynb
+│   └── 06_Deployment.ipynb
+│
+└── src
+```
 
 ---
 
-## 🚀 Run Locally
+## ▶️ Installation
 
-Install requirements
+Clone the repository
+
+```bash
+git clone https://github.com/nouremo77/employee-salary-prediction.git
+```
+
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -95,23 +115,21 @@ streamlit run app.py
 
 ---
 
-## 📈 Model Performance
+## 💡 Future Improvements
 
-- R² Score: **0.8323**
-- MAE: **15,790**
-- RMSE: **21,432**
+- Train and compare multiple regression models
+- Hyperparameter tuning
+- Cross-validation
+- Feature importance analysis
+- Deploy the application online using Streamlit Cloud
 
 ---
 
 ## 👩‍💻 Author
 
-**Nour Ezz Alarab**
+**Nour Mohamed Fawzy**
 
-AI Engineer
+AI Engineer | Machine Learning Enthusiast
 
-LinkedIn:
-(www.linkedin.com/in/nour-ezz-alarab)
-
-
-GitHub:
-(https://github.com/nouremo77)
+- GitHub: *https://github.com/nouremo77*
+- LinkedIn: *www.linkedin.com/in/nour-ezz-alarab*
