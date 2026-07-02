@@ -127,7 +127,7 @@ streamlit run app.py
 
 ## 👩‍💻 Author
 
-**Nour Mohamed Fawzy**
+**Nour Ezz Alarab**
 
 AI Engineer | Machine Learning Enthusiast
 
